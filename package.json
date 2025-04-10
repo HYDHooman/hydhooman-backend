@@ -1,15 +1,21 @@
 {
   "name": "hydhooman-backend",
   "version": "1.0.0",
+  "description": "HYDHooman backend with WebRTC signaling support",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^7.0.3",
-    "body-parser": "^1.20.2"
-  }
+    "mongoose": "^7.6.1",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [],
+  "author": "HYDHooman",
+  "license": "MIT"
 }
